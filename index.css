@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    background: #1B244A;
+    height: 385px;
+    width: 575px;
+    margin:auto;
+    border-radius: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.score {
+
+    background: black;
+    height: 120px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #F94F6D;
+}
+
+h2, button {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.buttons button {
+    padding: 5px;
+    font-size: 14px;
+    background: none;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    margin: 15px 2px 0 2px;
+    border-radius: 10%;
+}
+
+.winner{
+    color: green;
+}
