@@ -1,41 +1,51 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
-        <title>Baskball Scoreboard</title>
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <div id="home_title">
-                    <h3>HOME</h3>
-                </div>
-                <div class="score" >
-                    <h2 id="home_score">0</h2>
-                </div>
-                <div class="buttons">
-                    <button onclick="add(1, 'home')">+1</button>
-                    <button onclick="add(2, 'home')">+2</button>
-                    <button onclick="add(3, 'home')">+3</button>
-                </div>
-            </div>
-            <div class="reset">
-                <button onclick="reset()">NEW<br> GAME</button>
-            </div>
-            <div>
-                <div id="guest_title" >
-                    <h3>GUEST</h3>
-                </div>
-                <div class="score" >
-                    <h2 id="guest_score">0</h2>
-                </div>
-                <div class="buttons">
-                    <button onclick="add(1, 'guest')">+1</button>
-                    <button onclick="add(2, 'guest')">+2</button>
-                    <button onclick="add(3, 'guest')">+3</button>
-                </div>
-            </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <title>Baskball Scoreboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div id="home_title">
+          <h3>HOME</h3>
         </div>
-        <script type="text/javascript" src="./index.js"></script>
-    </body>
+        <div class="score">
+          <h2 id="home_score">0</h2>
+        </div>
+        <div class="buttons">
+          <button onclick="add(1, 'home')">+1</button>
+          <button onclick="add(2, 'home')">+2</button>
+          <button onclick="add(3, 'home')">+3</button>
+        </div>
+      </div>
+      <div class="reset">
+        <button onclick="reset()">
+          NEW<br />
+          GAME
+        </button>
+      </div>
+      <div>
+        <div id="guest_title">
+          <h3>GUEST</h3>
+        </div>
+        <div class="score">
+          <h2 id="guest_score">0</h2>
+        </div>
+        <div class="buttons">
+          <button onclick="add(1, 'guest')">+1</button>
+          <button onclick="add(2, 'guest')">+2</button>
+          <button onclick="add(3, 'guest')">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
 </html>
